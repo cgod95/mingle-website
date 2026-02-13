@@ -2,7 +2,7 @@
   "name": "mingle-website",
   "type": "module",
   "version": "1.0.0",
-  "description": "Marketing website for Mingle - the dating app for real-world connection",
+  "description": "Marketing website for Mingle - an app to meet people",
   "scripts": {
     "dev": "astro dev --port 4000",
     "build": "astro build",
