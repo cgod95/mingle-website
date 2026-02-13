@@ -246,12 +246,11 @@ input[type="email"]:focus {
 /* Logo styles */
 .logo-icon {
   background: var(--color-primary);
-  border-radius: 22%;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 800;
   font-size: 1.25rem;
   color: white;
-  aspect-ratio: 1;
 }
