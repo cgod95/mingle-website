@@ -71,41 +71,28 @@
   <div class="absolute inset-0 bg-gradient-to-r from-[var(--color-dark)] via-transparent to-[var(--color-dark)]"></div>
   <div class="absolute inset-0 bg-[var(--color-dark)]/50"></div>
   
-  <!-- Central card -->
-  <div class="relative z-10 max-w-lg mx-4">
-    <div class="bg-[#111118]/95 backdrop-blur-xl rounded-3xl p-10 md:p-12 text-center shadow-2xl border border-white/5">
-      <!-- Logo -->
-      <div class="flex justify-center mb-8">
-        <div class="logo-icon w-16 h-16 text-2xl animate-pulse-glow">M</div>
-      </div>
-      
-      <!-- Title -->
-      <h1 class="text-5xl md:text-6xl font-bold text-white mb-4 tracking-tight animate-fade-in-up">
-        Mingle
-      </h1>
-      
-      <!-- Tagline -->
-      <p class="text-lg text-[var(--color-text-muted)] mb-10 animate-fade-in-up" style="animation-delay: 0.1s;">
-        Check in. Match. Go say hi.
-      </p>
-      
-      <!-- CTAs -->
-      <div class="flex flex-col gap-4 animate-fade-in-up" style="animation-delay: 0.2s;">
-        <a href="#waitlist" class="btn-primary w-full py-4">
-          Join Closed Beta
-        </a>
-        <a href="#how-it-works" class="btn-secondary w-full py-4">
-          Get Started
-        </a>
-      </div>
+  <!-- Content -->
+  <div class="relative z-10 text-center max-w-3xl mx-auto px-6">
+    <!-- Logo icon -->
+    <div class="flex justify-center mb-8 animate-fade-in-up">
+      <div class="logo-icon w-20 h-20 text-3xl animate-pulse-glow">M</div>
     </div>
     
+    <!-- Tagline -->
+    <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 tracking-tight animate-fade-in-up" style="animation-delay: 0.1s;">
+      Check in. Match.<br/>Go say hi.
+    </h1>
+    
+    <!-- Subtitle -->
+    <p class="text-lg md:text-xl text-[var(--color-text-muted)] max-w-lg mx-auto animate-fade-in-up" style="animation-delay: 0.2s;">
+      See who's at the same place as you. The rest is up to you.
+    </p>
   </div>
   
   <!-- Scroll indicator -->
-  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+  <a href="#how-it-works" class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
     <svg class="w-6 h-6 text-[var(--color-text-muted)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
     </svg>
-  </div>
+  </a>
 </section>
